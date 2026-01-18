@@ -1,0 +1,13 @@
+python-dotenv
+nest_asyncio
+chromadb
+google-genai
+llama-index-core
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+llama-index-vector-stores-chroma
+llama-parse
+pandas
+streamlit
+streamlit-chat
+uuid
