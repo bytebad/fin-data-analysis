@@ -8,6 +8,7 @@ llama-index-embeddings-gemini
 llama-index-vector-stores-chroma
 llama-parse
 pandas
+numpy
 streamlit
 streamlit-chat
 uuid
