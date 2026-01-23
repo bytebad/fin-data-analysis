@@ -52,9 +52,6 @@ def main():
     if "documents" not in st.session_state:
         st.session_state.documents = st.session_state.rag_pipeline.list_documents()
 
-    if "selected_doc" not in st.session_state:
-        st.session_state.selected_doc = None
-
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
@@ -87,9 +84,6 @@ def main():
 
             # Refresh document list from persistent store
             st.session_state.documents = st.session_state.rag_pipeline.list_documents()
-
-            # Auto-select latest document
-            st.session_state.selected_doc = st.session_state.documents[-1]
             st.session_state.ingestion_complete = True
 
             st.success("Document indexed successfully!")
@@ -98,9 +92,7 @@ def main():
         if st.session_state.documents:
             st.subheader("Previously Uploaded")
             for doc in st.session_state.documents:
-                if st.button(f"📄 {doc['file_name']}", key=doc["file_name"]):
-                    st.session_state.selected_doc = doc
-                    st.session_state.messages = []
+                st.text(f"📄 {doc['file_name']}")
 
         else:
             st.info("No documents indexed yet.")
@@ -108,11 +100,9 @@ def main():
     # -----------------------------
     # Main Panel
     # -----------------------------
-    if not st.session_state.selected_doc:
-        st.info("Upload or select a document to begin.")
+    if not st.session_state.documents:
+        st.info("Upload a document to begin.")
         return
-
-    st.caption(f"Selected document: **{st.session_state.selected_doc['file_name']}**")
 
     # Chat history
     for msg in st.session_state.messages:
@@ -120,21 +110,42 @@ def main():
             st.markdown(msg["content"])
 
     # Chat input
-    if prompt := st.chat_input("Ask a question about this document"):
+    if prompt := st.chat_input("Ask a question about your uploaded documents"):
         st.session_state.messages.append(
             {"role": "user", "content": prompt}
         )
 
         with st.spinner("Thinking…"):
-            nodes = st.session_state.rag_pipeline.query_documents(prompt)
-            answer = st.session_state.rag_pipeline.generate_answer(prompt, nodes)
+            # Use unified query routing that handles both quantitative and qualitative queries
+            result = st.session_state.rag_pipeline.query_with_routing(prompt, top_k=10)
+            
+            answer = result["answer"]
+            method = result["method"]
+            details = result.get("details", {})
 
+        # Display answer
         st.session_state.messages.append(
             {"role": "assistant", "content": answer}
         )
 
         with st.chat_message("assistant"):
             st.markdown(answer)
+            
+            # Show additional details for quantitative queries
+            if method == "quantitative" and details:
+                with st.expander("📊 Calculation Details", expanded=False):
+                    if details.get("pandas_code"):
+                        st.code(details["pandas_code"], language="python")
+                    
+                    if details.get("result_preview"):
+                        st.text("Result Preview:")
+                        st.text(details["result_preview"])
+                    
+                    if details.get("used_columns"):
+                        st.caption(f"Columns used: {', '.join(details['used_columns'])}")
+                    
+                    if details.get("latency_ms"):
+                        st.caption(f"Response time: {details['latency_ms']}ms")
 
 
 
