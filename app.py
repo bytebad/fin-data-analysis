@@ -115,6 +115,9 @@ def main():
             {"role": "user", "content": prompt}
         )
 
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
         with st.spinner("Thinking…"):
             # Use unified query routing that handles both quantitative and qualitative queries
             result = st.session_state.rag_pipeline.query_with_routing(prompt, top_k=10)
