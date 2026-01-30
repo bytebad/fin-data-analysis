@@ -2,7 +2,7 @@
 """
 Script to run the Streamlit Document Q&A Assistant
 """
-
+from dotenv import load_dotenv
 import subprocess
 import sys
 import os
@@ -14,6 +14,7 @@ def main():
     """Run the Streamlit application"""
     print("🚀 Starting Document Q&A Assistant...")
 
+    load_dotenv()
     # Check if required environment variables are set
     required_env_vars = ["GEMINI_API_KEY", "LLAMA_API_KEY"]
     missing_vars = [var for var in required_env_vars if not os.getenv(var)]

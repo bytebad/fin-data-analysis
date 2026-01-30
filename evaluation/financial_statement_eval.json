@@ -1,0 +1,455 @@
+{
+  "dataset_id": "merck_financial_statements_eval_2025_q3",
+  "doc": "2025-Q3-Financial-Statement-EN.pdf",
+  "created_utc": "2026-01-29T18:37:05Z",
+  "task": "rag_retrieval_eval",
+  "notes": "Gold evidence uses (doc,page) pairs for Recall@k evaluation. Numbers are taken directly from tables in the PDF.",
+  "items": [
+    {
+      "id": "MS-2025Q3-001",
+      "question": "What were Merck Group net sales in Q1 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 5280.1,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-002",
+      "question": "What were Merck Group net sales in Q2 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 5254.9,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-003",
+      "question": "What were Merck Group net sales in Q3 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 5318.2,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-004",
+      "question": "What were Merck Group net sales for the first 9 months of 2025 (9M 2025) (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 15853.2,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-005",
+      "question": "What was the YoY percentage change of Merck Group net sales in Q1 2025?",
+      "answer": {
+        "type": "percentage",
+        "value": 3.1
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-006",
+      "question": "What was the YoY percentage change of Merck Group net sales in Q2 2025?",
+      "answer": {
+        "type": "percentage",
+        "value": -1.8
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-007",
+      "question": "What was the YoY percentage change of Merck Group net sales in Q3 2025?",
+      "answer": {
+        "type": "percentage",
+        "value": 1.0
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-008",
+      "question": "What were Life Science net sales in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 6725.4,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-009",
+      "question": "What were Healthcare net sales in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 6418.4,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-010",
+      "question": "What were Electronics net sales in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 2709.4,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-011",
+      "question": "What was Merck Group EBITDA pre in Q3 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 1668.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-012",
+      "question": "What was Merck Group EBITDA pre for 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 4666.1,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-013",
+      "question": "What was Merck Group EBITDA pre margin in Q3 2025 (in % of net sales)?",
+      "answer": {
+        "type": "percentage",
+        "value": 31.4
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-014",
+      "question": "What was Life Science EBITDA pre in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 1930.2,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-015",
+      "question": "What was Healthcare EBITDA pre in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 2396.8,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-016",
+      "question": "What was Electronics EBITDA pre in Q2 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 133.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-017",
+      "question": "What was Corporate/Others EBITDA pre in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": -274.8,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-018",
+      "question": "What was Merck Group financial result in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": -210.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-019",
+      "question": "What was Merck Group interest result in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": -156.4,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-020",
+      "question": "What was Merck Group interest income in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 64.5,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-021",
+      "question": "What was Merck Group interest expenses in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": -220.9,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-022",
+      "question": "What was Merck Group profit after tax for 9M 2025 (in € million) according to the cash flow statement?",
+      "answer": {
+        "type": "number",
+        "value": 2290.9,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-023",
+      "question": "What were Merck Group depreciation/amortization/impairment losses (and reversals) in 9M 2025 (in € million) according to the cash flow statement?",
+      "answer": {
+        "type": "number",
+        "value": 1387.9,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-024",
+      "question": "What was Merck Group financing cash flow in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 837.9,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-025",
+      "question": "What were Merck Group changes in cash and cash equivalents in 9M 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": -199.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-026",
+      "question": "What were Merck Group cash and cash equivalents at 30 Sep 2025 (in € million) on the balance sheet?",
+      "answer": {
+        "type": "number",
+        "value": 2250.7,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-027",
+      "question": "What were Merck Group total assets at 30 Sep 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 50926.8,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-028",
+      "question": "What was Merck Group total equity at 30 Sep 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 28999.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-029",
+      "question": "What was Merck Group financial debt at 30 Sep 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 12103.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "MS-2025Q3-030",
+      "question": "What was Merck Group net financial debt at 30 Sep 2025 (in € million)?",
+      "answer": {
+        "type": "number",
+        "value": 9287.6,
+        "unit": "€ million"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ]
+    }
+  ]
+}

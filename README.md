@@ -147,3 +147,7 @@ The codebase is structured as follows:
 ## License
 
 This project is for educational and demonstration purposes.
+
+```
+NODES_METADATA:{'doc_id': 'f4c2d9a8-b756-4b0d-8c97-24037955a653', 'file_name': '2018-Q4-Financial-Statement-EN.pdf', 'file_path': 'uploads/2018-Q4-Financial-Statement-EN.pdf'}
+```

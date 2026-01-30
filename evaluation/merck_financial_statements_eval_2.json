@@ -1,0 +1,1735 @@
+{
+  "dataset_id": "merck_2025_q1_q3_eval_loose_retrieval",
+  "created_utc": "2026-01-29T23:48:02Z",
+  "task": "rag_retrieval_eval",
+  "notes": "Loosely-scored, year/quarter-specific retrieval eval set for Merck 2025 Q1–Q3 statements. Each item includes multiple acceptable evidence pages (e.g., page 2 summary tables or page 3 income statement) to avoid overly strict grading when tables move or chunks span page boundaries.",
+  "docs": [
+    {
+      "doc": "2025-Q1-Financial-Statement-EN.pdf",
+      "label": "2025 Q1"
+    },
+    {
+      "doc": "2025-Q2-Financial-Statement-EN.pdf",
+      "label": "2025 Q2"
+    },
+    {
+      "doc": "2025-Q3-Financial-Statement-EN.pdf",
+      "label": "2025 Q3"
+    }
+  ],
+  "items": [
+    {
+      "id": "MERCK-2025-2025Q1-001",
+      "question": "In 2025 Q1, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-002",
+      "question": "In 2025 Q1, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-003",
+      "question": "In 2025 Q1, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-004",
+      "question": "In 2025 Q1, what were Merck Group net sales in H1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-005",
+      "question": "In 2025 Q1, what were Merck Group net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-006",
+      "question": "In 2025 Q1, what was the YoY % change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-007",
+      "question": "In 2025 Q1, what was the YoY % change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-008",
+      "question": "In 2025 Q1, what was the YoY % change of Merck Group net sales in Q3?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-009",
+      "question": "In 2025 Q1, what was the organic % change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-010",
+      "question": "In 2025 Q1, what was the FX % impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-011",
+      "question": "In 2025 Q1, what were Life Science net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-012",
+      "question": "In 2025 Q1, what were Healthcare net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-013",
+      "question": "In 2025 Q1, what were Electronics net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-014",
+      "question": "In 2025 Q1, what were Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-015",
+      "question": "In 2025 Q1, what were Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-016",
+      "question": "In 2025 Q1, what were Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-017",
+      "question": "In 2025 Q1, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-018",
+      "question": "In 2025 Q1, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-019",
+      "question": "In 2025 Q1, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-020",
+      "question": "In 2025 Q1, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-021",
+      "question": "In 2025 Q1, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-022",
+      "question": "In 2025 Q1, what was Merck Group EBITDA pre margin (in % of net sales) in Q3?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-023",
+      "question": "In 2025 Q1, what is the net financial result for the period (or financial result line item) in the quarterly financial result table?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-024",
+      "question": "In 2025 Q1, what is cash flow from operating activities for the period (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 15
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q1-025",
+      "question": "In 2025 Q1, what are total assets on the balance sheet (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        },
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-026",
+      "question": "In 2025 Q2, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-027",
+      "question": "In 2025 Q2, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-028",
+      "question": "In 2025 Q2, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-029",
+      "question": "In 2025 Q2, what were Merck Group net sales in H1 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-030",
+      "question": "In 2025 Q2, what were Merck Group net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-031",
+      "question": "In 2025 Q2, what was the YoY % change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-032",
+      "question": "In 2025 Q2, what was the YoY % change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-033",
+      "question": "In 2025 Q2, what was the YoY % change of Merck Group net sales in Q3?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-034",
+      "question": "In 2025 Q2, what was the organic % change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-035",
+      "question": "In 2025 Q2, what was the FX % impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-036",
+      "question": "In 2025 Q2, what were Life Science net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-037",
+      "question": "In 2025 Q2, what were Healthcare net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-038",
+      "question": "In 2025 Q2, what were Electronics net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-039",
+      "question": "In 2025 Q2, what were Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-040",
+      "question": "In 2025 Q2, what were Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-041",
+      "question": "In 2025 Q2, what were Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-042",
+      "question": "In 2025 Q2, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-043",
+      "question": "In 2025 Q2, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-044",
+      "question": "In 2025 Q2, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-045",
+      "question": "In 2025 Q2, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-046",
+      "question": "In 2025 Q2, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-047",
+      "question": "In 2025 Q2, what was Merck Group EBITDA pre margin (in % of net sales) in Q3?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-048",
+      "question": "In 2025 Q2, what is the net financial result for the period (or financial result line item) in the quarterly financial result table?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-049",
+      "question": "In 2025 Q2, what is cash flow from operating activities for the period (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 15
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q2-050",
+      "question": "In 2025 Q2, what are total assets on the balance sheet (in € million)?",
+      "target": {
+        "doc": "2025-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        },
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-051",
+      "question": "In 2025 Q3, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-052",
+      "question": "In 2025 Q3, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-053",
+      "question": "In 2025 Q3, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-054",
+      "question": "In 2025 Q3, what were Merck Group net sales in H1 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-055",
+      "question": "In 2025 Q3, what were Merck Group net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-056",
+      "question": "In 2025 Q3, what was the YoY % change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-057",
+      "question": "In 2025 Q3, what was the YoY % change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-058",
+      "question": "In 2025 Q3, what was the YoY % change of Merck Group net sales in Q3?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-059",
+      "question": "In 2025 Q3, what was the organic % change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-060",
+      "question": "In 2025 Q3, what was the FX % impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-061",
+      "question": "In 2025 Q3, what were Life Science net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-062",
+      "question": "In 2025 Q3, what were Healthcare net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-063",
+      "question": "In 2025 Q3, what were Electronics net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-064",
+      "question": "In 2025 Q3, what were Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-065",
+      "question": "In 2025 Q3, what were Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-066",
+      "question": "In 2025 Q3, what were Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-067",
+      "question": "In 2025 Q3, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-068",
+      "question": "In 2025 Q3, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-069",
+      "question": "In 2025 Q3, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-070",
+      "question": "In 2025 Q3, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-071",
+      "question": "In 2025 Q3, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-072",
+      "question": "In 2025 Q3, what was Merck Group EBITDA pre margin (in % of net sales) in Q3?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 3
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-073",
+      "question": "In 2025 Q3, what is the net financial result for the period (or financial result line item) in the quarterly financial result table?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-074",
+      "question": "In 2025 Q3, what is cash flow from operating activities for the period (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    },
+    {
+      "id": "MERCK-2025-2025Q3-075",
+      "question": "In 2025 Q3, what are total assets on the balance sheet (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        },
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text",
+      "tolerance": {
+        "evidence_match": "any",
+        "notes": "Loose evidence pages to tolerate table placement/chunking differences."
+      }
+    }
+  ]
+}

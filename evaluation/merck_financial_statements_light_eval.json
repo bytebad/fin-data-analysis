@@ -1,0 +1,3605 @@
+{
+  "dataset_id": "merck_financial_statements_2025_eval",
+  "items": [
+    {
+      "id": "2025-q1-financial-statement-en_non_current_assets_column_1",
+      "question": "What was Merck Group non-current assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 36680.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_assets_column_1",
+      "question": "What was Merck Group non-current assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 36680.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_1",
+      "question": "What was Merck Group non-current assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 36680.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_assets_column_2",
+      "question": "What was Merck Group non-current assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 36828.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_assets_column_2",
+      "question": "What was Merck Group non-current assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 36828.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_2",
+      "question": "What was Merck Group non-current assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 36828.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_assets_column_3",
+      "question": "What was Merck Group non-current assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 36213.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_assets_column_3",
+      "question": "What was Merck Group non-current assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 36213.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_3",
+      "question": "What was Merck Group non-current assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 36213.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_assets_column_4",
+      "question": "What was Merck Group non-current assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 38116.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_assets_column_4",
+      "question": "What was Merck Group non-current assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 38145.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_4",
+      "question": "What was Merck Group non-current assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 38145.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_assets_column_5",
+      "question": "What was Merck Group non-current assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 36960.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_assets_column_5",
+      "question": "What was Merck Group non-current assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 36960.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_5",
+      "question": "What was Merck Group non-current assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 36960.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_goodwill_column_1",
+      "question": "What was Merck Group goodwill as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 18180.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_assets_column_6",
+      "question": "What was Merck Group non-current assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 35155.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_6",
+      "question": "What was Merck Group non-current assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 35155.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_goodwill_column_2",
+      "question": "What was Merck Group goodwill as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 18320.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_goodwil_column_1",
+      "question": "What was Merck Group goodwil as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 18180.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_assets_column_7",
+      "question": "What was Merck Group non-current assets as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 38051.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_goodwill_column_3",
+      "question": "What was Merck Group goodwill as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 18092.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_goodwil_column_2",
+      "question": "What was Merck Group goodwil as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 18320.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_1",
+      "question": "What was Merck Group goodwill as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 18180.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_goodwill_column_4",
+      "question": "What was Merck Group goodwill as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 19151.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_goodwil_column_3",
+      "question": "What was Merck Group goodwil as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 18092.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_2",
+      "question": "What was Merck Group goodwill as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 18320.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_goodwill_column_5",
+      "question": "What was Merck Group goodwill as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 18574.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_goodwil_column_4",
+      "question": "What was Merck Group goodwil as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 19106.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_3",
+      "question": "What was Merck Group goodwill as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 18092.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_intangible_assets_column_1",
+      "question": "What was Merck Group other intangible assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 6480.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_goodwil_column_5",
+      "question": "What was Merck Group goodwil as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 18574.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_4",
+      "question": "What was Merck Group goodwill as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 19106.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_intangible_assets_column_2",
+      "question": "What was Merck Group other intangible assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 6208.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_goodwil_column_6",
+      "question": "What was Merck Group goodwil as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 17341.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_5",
+      "question": "What was Merck Group goodwill as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 18574.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_intangible_assets_column_3",
+      "question": "What was Merck Group other intangible assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 5845.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_gible_assets_column_1",
+      "question": "What was Merck Group gible assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 6480.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_6",
+      "question": "What was Merck Group goodwill as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 17341.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_intangible_assets_column_4",
+      "question": "What was Merck Group other intangible assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 6282.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_gible_assets_column_2",
+      "question": "What was Merck Group gible assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 6208.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_goodwill_column_7",
+      "question": "What was Merck Group goodwill as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 20054.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_intangible_assets_column_5",
+      "question": "What was Merck Group other intangible assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 5981.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_gible_assets_column_3",
+      "question": "What was Merck Group gible assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 5845.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_1",
+      "question": "What was Merck Group other intangible assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 6480.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_property_plant_and_equipment_column_1",
+      "question": "What was Merck Group property, plant and equipment as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 9214.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_gible_assets_column_4",
+      "question": "What was Merck Group gible assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 6351.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_2",
+      "question": "What was Merck Group other intangible assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 6208.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_property_plant_and_equipment_column_2",
+      "question": "What was Merck Group property, plant and equipment as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 9433.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_gible_assets_column_5",
+      "question": "What was Merck Group gible assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 5981.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_3",
+      "question": "What was Merck Group other intangible assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 5845.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_property_plant_and_equipment_column_3",
+      "question": "What was Merck Group property, plant and equipment as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 9414.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_gible_assets_column_6",
+      "question": "What was Merck Group gible assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 5584.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_4",
+      "question": "What was Merck Group other intangible assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 6351.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_property_plant_and_equipment_column_4",
+      "question": "What was Merck Group property, plant and equipment as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 10025.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_property_plant_and_equipmen_column_1",
+      "question": "What was Merck Group property, plant and equipmen as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 9214.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_5",
+      "question": "What was Merck Group other intangible assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 5981.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_property_plant_and_equipment_column_5",
+      "question": "What was Merck Group property, plant and equipment as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 9854.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_property_plant_and_equipmen_column_2",
+      "question": "What was Merck Group property, plant and equipmen as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 9433.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_6",
+      "question": "What was Merck Group other intangible assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 5584.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_investments_accounted_for_using_the_equity_method_column_1",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_property_plant_and_equipmen_column_3",
+      "question": "What was Merck Group property, plant and equipmen as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 9414.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_intangible_assets_column_7",
+      "question": "What was Merck Group other intangible assets as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 5578.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_investments_accounted_for_using_the_equity_method_column_2",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_property_plant_and_equipmen_column_4",
+      "question": "What was Merck Group property, plant and equipmen as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 10025.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_1",
+      "question": "What was Merck Group property, plant and equipment as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 9214.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_investments_accounted_for_using_the_equity_method_column_3",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 2.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_property_plant_and_equipmen_column_5",
+      "question": "What was Merck Group property, plant and equipmen as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 9854.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_2",
+      "question": "What was Merck Group property, plant and equipment as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 9433.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_investments_accounted_for_using_the_equity_method_column_4",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 3.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_property_plant_and_equipmen_column_6",
+      "question": "What was Merck Group property, plant and equipmen as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 9662.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_3",
+      "question": "What was Merck Group property, plant and equipment as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 9414.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_investments_accounted_for_using_the_equity_method_column_5",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_investments_accounted_for_using_the_equity_metho_column_1",
+      "question": "What was Merck Group investments accounted for using the equity metho as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_4",
+      "question": "What was Merck Group property, plant and equipment as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 10025.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_receivables_column_1",
+      "question": "What was Merck Group other non-current receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 26.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_investments_accounted_for_using_the_equity_metho_column_2",
+      "question": "What was Merck Group investments accounted for using the equity metho as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_5",
+      "question": "What was Merck Group property, plant and equipment as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 9854.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_receivables_column_2",
+      "question": "What was Merck Group other non-current receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 24.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_investments_accounted_for_using_the_equity_metho_column_3",
+      "question": "What was Merck Group investments accounted for using the equity metho as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 2.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_6",
+      "question": "What was Merck Group property, plant and equipment as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 9662.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_receivables_column_3",
+      "question": "What was Merck Group other non-current receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 24.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_investments_accounted_for_using_the_equity_metho_column_4",
+      "question": "What was Merck Group investments accounted for using the equity metho as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 3.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_property_plant_and_equipment_column_7",
+      "question": "What was Merck Group property, plant and equipment as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 9776.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_receivables_column_4",
+      "question": "What was Merck Group other non-current receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 27.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_investments_accounted_for_using_the_equity_metho_column_5",
+      "question": "What was Merck Group investments accounted for using the equity metho as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_1",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_receivables_column_5",
+      "question": "What was Merck Group other non-current receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 27.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_investments_accounted_for_using_the_equity_metho_column_6",
+      "question": "What was Merck Group investments accounted for using the equity metho as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 2.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_2",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_financial_assets_column_1",
+      "question": "What was Merck Group other non-current financial assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 1067.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_receivables_column_1",
+      "question": "What was Merck Group other non-current receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 26.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_3",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 2.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_financial_assets_column_2",
+      "question": "What was Merck Group other non-current financial assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 1062.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_receivables_column_2",
+      "question": "What was Merck Group other non-current receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 24.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_4",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 3.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_financial_assets_column_3",
+      "question": "What was Merck Group other non-current financial assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 1090.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_receivables_column_3",
+      "question": "What was Merck Group other non-current receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 24.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_5",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 2.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_financial_assets_column_4",
+      "question": "What was Merck Group other non-current financial assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 1172.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_receivables_column_4",
+      "question": "What was Merck Group other non-current receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 27.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_6",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 2.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_financial_assets_column_5",
+      "question": "What was Merck Group other non-current financial assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 1044.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_receivables_column_5",
+      "question": "What was Merck Group other non-current receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 27.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_investments_accounted_for_using_the_equity_method_column_7",
+      "question": "What was Merck Group investments accounted for using the equity method as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 2.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_non_financial_assets_column_1",
+      "question": "What was Merck Group other non-current non-financial assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 138.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_receivables_column_6",
+      "question": "What was Merck Group other non-current receivables as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 30.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_1",
+      "question": "What was Merck Group other non-current receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 26.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_non_financial_assets_column_2",
+      "question": "What was Merck Group other non-current non-financial assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_financial_assets_column_1",
+      "question": "What was Merck Group other non-current financial assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 1067.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_2",
+      "question": "What was Merck Group other non-current receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 24.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_non_financial_assets_column_3",
+      "question": "What was Merck Group other non-current non-financial assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 128.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_financial_assets_column_2",
+      "question": "What was Merck Group other non-current financial assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 1062.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_3",
+      "question": "What was Merck Group other non-current receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 24.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_non_financial_assets_column_4",
+      "question": "What was Merck Group other non-current non-financial assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_financial_assets_column_3",
+      "question": "What was Merck Group other non-current financial assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 1090.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_4",
+      "question": "What was Merck Group other non-current receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 27.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_other_non_current_non_financial_assets_column_5",
+      "question": "What was Merck Group other non-current non-financial assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 106.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_financial_assets_column_4",
+      "question": "What was Merck Group other non-current financial assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 1172.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_5",
+      "question": "What was Merck Group other non-current receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 27.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_income_tax_receivables_column_1",
+      "question": "What was Merck Group non-current income tax receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 9.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_financial_assets_column_5",
+      "question": "What was Merck Group other non-current financial assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 1044.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_6",
+      "question": "What was Merck Group other non-current receivables as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 30.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_income_tax_receivables_column_2",
+      "question": "What was Merck Group non-current income tax receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 10.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_financial_assets_column_6",
+      "question": "What was Merck Group other non-current financial assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 1031.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_receivables_column_7",
+      "question": "What was Merck Group other non-current receivables as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 31.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_income_tax_receivables_column_3",
+      "question": "What was Merck Group non-current income tax receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 9.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_non_financial_assets_column_1",
+      "question": "What was Merck Group other non-current non-financial assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 138.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_1",
+      "question": "What was Merck Group other non-current financial assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 1067.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_income_tax_receivables_column_4",
+      "question": "What was Merck Group non-current income tax receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 8.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_non_financial_assets_column_2",
+      "question": "What was Merck Group other non-current non-financial assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_2",
+      "question": "What was Merck Group other non-current financial assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 1062.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_non_current_income_tax_receivables_column_5",
+      "question": "What was Merck Group non-current income tax receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 8.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_non_financial_assets_column_3",
+      "question": "What was Merck Group other non-current non-financial assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 128.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_3",
+      "question": "What was Merck Group other non-current financial assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 1090.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_deferred_tax_assets_column_1",
+      "question": "What was Merck Group deferred tax assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 1560.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_non_financial_assets_column_4",
+      "question": "What was Merck Group other non-current non-financial assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_4",
+      "question": "What was Merck Group other non-current financial assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 1172.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_deferred_tax_assets_column_2",
+      "question": "What was Merck Group deferred tax assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 1632.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_non_financial_assets_column_5",
+      "question": "What was Merck Group other non-current non-financial assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 106.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_5",
+      "question": "What was Merck Group other non-current financial assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 1044.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_deferred_tax_assets_column_3",
+      "question": "What was Merck Group deferred tax assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 1605.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_other_non_current_non_financial_assets_column_6",
+      "question": "What was Merck Group other non-current non-financial assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 107.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_6",
+      "question": "What was Merck Group other non-current financial assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 1031.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_deferred_tax_assets_column_4",
+      "question": "What was Merck Group deferred tax assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 1312.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_income_tax_receivables_column_1",
+      "question": "What was Merck Group non-current income tax receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 9.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_financial_assets_column_7",
+      "question": "What was Merck Group other non-current financial assets as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 985.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_deferred_tax_assets_column_5",
+      "question": "What was Merck Group deferred tax assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 1360.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_income_tax_receivables_column_2",
+      "question": "What was Merck Group non-current income tax receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 10.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_1",
+      "question": "What was Merck Group other non-current non-financial assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 138.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_current_assets_column_1",
+      "question": "What was Merck Group current assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 12823.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_income_tax_receivables_column_3",
+      "question": "What was Merck Group non-current income tax receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 9.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_2",
+      "question": "What was Merck Group other non-current non-financial assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_current_assets_column_2",
+      "question": "What was Merck Group current assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 13046.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_income_tax_receivables_column_4",
+      "question": "What was Merck Group non-current income tax receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 8.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_3",
+      "question": "What was Merck Group other non-current non-financial assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 128.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_current_assets_column_3",
+      "question": "What was Merck Group current assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 13928.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_income_tax_receivables_column_5",
+      "question": "What was Merck Group non-current income tax receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 8.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_4",
+      "question": "What was Merck Group other non-current non-financial assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_current_assets_column_4",
+      "question": "What was Merck Group current assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 13450.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_non_current_income_tax_receivables_column_6",
+      "question": "What was Merck Group non-current income tax receivables as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 8.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_5",
+      "question": "What was Merck Group other non-current non-financial assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 106.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_current_assets_column_5",
+      "question": "What was Merck Group current assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 12412.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_deferred_tax_assets_column_1",
+      "question": "What was Merck Group deferred tax assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 1560.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_6",
+      "question": "What was Merck Group other non-current non-financial assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 107.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_inventories_column_1",
+      "question": "What was Merck Group inventories as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 4716.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_deferred_tax_assets_column_2",
+      "question": "What was Merck Group deferred tax assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 1632.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_other_non_current_non_financial_assets_column_7",
+      "question": "What was Merck Group other non-current non-financial assets as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 112.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_inventories_column_2",
+      "question": "What was Merck Group inventories as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 4714.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_deferred_tax_assets_column_3",
+      "question": "What was Merck Group deferred tax assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 1605.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_1",
+      "question": "What was Merck Group non-current income tax receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 9.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_inventories_column_3",
+      "question": "What was Merck Group inventories as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 4404.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_deferred_tax_assets_column_4",
+      "question": "What was Merck Group deferred tax assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 1317.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_2",
+      "question": "What was Merck Group non-current income tax receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 10.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_inventories_column_4",
+      "question": "What was Merck Group inventories as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 4484.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_deferred_tax_assets_column_5",
+      "question": "What was Merck Group deferred tax assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 1360.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_3",
+      "question": "What was Merck Group non-current income tax receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 9.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_inventories_column_5",
+      "question": "What was Merck Group inventories as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 4513.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_deferred_tax_assets_column_6",
+      "question": "What was Merck Group deferred tax assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 1387.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_4",
+      "question": "What was Merck Group non-current income tax receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 8.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_trade_and_other_current_receivables_column_1",
+      "question": "What was Merck Group trade and other current receivables as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 4147.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_current_assets_column_1",
+      "question": "What was Merck Group current assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 12823.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_5",
+      "question": "What was Merck Group non-current income tax receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 8.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_trade_and_other_current_receivables_column_2",
+      "question": "What was Merck Group trade and other current receivables as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 4263.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_current_assets_column_2",
+      "question": "What was Merck Group current assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 13046.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_6",
+      "question": "What was Merck Group non-current income tax receivables as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 8.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_trade_and_other_current_receivables_column_3",
+      "question": "What was Merck Group trade and other current receivables as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 3988.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_current_assets_column_3",
+      "question": "What was Merck Group current assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 13928.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_non_current_income_tax_receivables_column_7",
+      "question": "What was Merck Group non-current income tax receivables as of column_7 (in € million)?",
+      "gold_answer": {
+        "value": 8.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_trade_and_other_current_receivables_column_4",
+      "question": "What was Merck Group trade and other current receivables as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 3946.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_current_assets_column_4",
+      "question": "What was Merck Group current assets as of column_4 (in € million)?",
+      "gold_answer": {
+        "value": 13450.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_deferred_tax_assets_column_1",
+      "question": "What was Merck Group deferred tax assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 1560.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_trade_and_other_current_receivables_column_5",
+      "question": "What was Merck Group trade and other current receivables as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 4339.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_current_assets_column_5",
+      "question": "What was Merck Group current assets as of column_5 (in € million)?",
+      "gold_answer": {
+        "value": 12412.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_deferred_tax_assets_column_2",
+      "question": "What was Merck Group deferred tax assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 1632.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_contract_assets_column_1",
+      "question": "What was Merck Group contract assets as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 99.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_current_assets_column_6",
+      "question": "What was Merck Group current assets as of column_6 (in € million)?",
+      "gold_answer": {
+        "value": 12195.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q3-financial-statement-en_deferred_tax_assets_column_3",
+      "question": "What was Merck Group deferred tax assets as of column_3 (in € million)?",
+      "gold_answer": {
+        "value": 1605.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q1-financial-statement-en_contract_assets_column_2",
+      "question": "What was Merck Group contract assets as of column_2 (in € million)?",
+      "gold_answer": {
+        "value": 123.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    },
+    {
+      "id": "2025-q2-financial-statement-en_inventories_column_1",
+      "question": "What was Merck Group inventories as of column_1 (in € million)?",
+      "gold_answer": {
+        "value": 4716.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "tolerance": {
+        "absolute": 5.0
+      }
+    }
+  ]
+}

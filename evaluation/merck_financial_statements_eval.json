@@ -1,0 +1,6083 @@
+{
+  "dataset_id": "merck_financial_statements_eval_year_specific_2018_2025",
+  "created_utc": "2026-01-29T21:19:20Z",
+  "task": "rag_retrieval_eval",
+  "notes": "Year/quarter-specific retrieval eval set generated from the merged global set. Each original question was expanded into doc-specific variants (one per (doc,page) evidence). Questions are prefixed with 'According to the Merck {YYYY Qn} Financial Statement' so the intended document is explicit.",
+  "items": [
+    {
+      "id": "YS-000001",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group net sales in Q1 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000002",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group net sales in Q2 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000003",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group net sales in Q3 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000004",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group net sales for the first 9 months of 2025 (9M 2025) (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000005",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1 2025?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000006",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2 2025?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000007",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q3 2025?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000008",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Life Science net sales in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000009",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Healthcare net sales in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000010",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Electronics net sales in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000011",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group EBITDA pre in Q3 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000012",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group EBITDA pre for 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000013",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group EBITDA pre margin in Q3 2025 (in % of net sales)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000014",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Life Science EBITDA pre in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000015",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Healthcare EBITDA pre in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000016",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Electronics EBITDA pre in Q2 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000017",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Corporate/Others EBITDA pre in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000018",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group financial result in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000019",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group interest result in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000020",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group interest income in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000021",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group interest expenses in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 14
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000022",
+      "question": "What was Merck Group profit after tax for 9M 2025 (in € million) according to the cash flow statement?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000023",
+      "question": "What were Merck Group depreciation/amortization/impairment losses (and reversals) in 9M 2025 (in € million) according to the cash flow statement?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000024",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group financing cash flow in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 15
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000025",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group changes in cash and cash equivalents in 9M 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000026",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group cash and cash equivalents at 30 Sep 2025 (in € million) on the balance sheet?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000027",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what were Merck Group total assets at 30 Sep 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000028",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group total equity at 30 Sep 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000029",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group financial debt at 30 Sep 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000030",
+      "question": "According to the Merck 2025 Q3 Financial Statement, what was Merck Group net financial debt at 30 Sep 2025 (in € million)?",
+      "target": {
+        "doc": "2025-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 16
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000031",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000032",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000033",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000034",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000035",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000036",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000037",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000038",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000039",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000040",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000041",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in Q1 (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000042",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000043",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000044",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000045",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000046",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000047",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000048",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000049",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000050",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000051",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000052",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in Q2 (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000053",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000054",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000055",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000056",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000057",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000058",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000059",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000060",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000061",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000062",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000063",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in H1 (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000064",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000065",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000066",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000067",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000068",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000069",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000070",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000071",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000072",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000073",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000074",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in Q3 (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000075",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000076",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000077",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000078",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000079",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000080",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000081",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000082",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000083",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000084",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000085",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000086",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000087",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000088",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000089",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000090",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000091",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000092",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000093",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000094",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000095",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000096",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in Q4 (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000097",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000098",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000099",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000100",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000101",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000102",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000103",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000104",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000105",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000106",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000107",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in H2 (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000108",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000109",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000110",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000111",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000112",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000113",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000114",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000115",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000116",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000117",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000118",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre in FY (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000119",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000120",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000121",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000122",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000123",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000124",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000125",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000126",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000127",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000128",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000129",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q1?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000130",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000131",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000132",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000133",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000134",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000135",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000136",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000137",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000138",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000139",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000140",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Merck Group EBITDA pre margin (in % of net sales) in Q2?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000141",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000142",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000143",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000144",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000145",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000146",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000147",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000148",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000149",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000150",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000151",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Healthcare EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000152",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000153",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000154",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000155",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000156",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000157",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000158",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000159",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000160",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000161",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000162",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Life Science EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000163",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000164",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000165",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000166",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000167",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000168",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000169",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Electronics / Performance Materials EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000170",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000171",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000172",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000173",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000174",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000175",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000176",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000177",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000178",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000179",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000180",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Corporate/Others EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000181",
+      "question": "According to the Merck 2018 Q3 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2018-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000182",
+      "question": "According to the Merck 2018 Q4 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2018-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2018-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000183",
+      "question": "According to the Merck 2019 Q3 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2019-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000184",
+      "question": "According to the Merck 2019 Q4 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2019-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2019-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000185",
+      "question": "According to the Merck 2020 Q1 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2020-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000186",
+      "question": "According to the Merck 2020 Q2 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2020-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000187",
+      "question": "According to the Merck 2020 Q3 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2020-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000188",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000189",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000190",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000191",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was the YoY percentage change of Merck Group EBITDA pre in 9M?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000192",
+      "question": "According to the Merck 2020 Q4 Financial Statement, what was Electronics (or Performance Materials) EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2020-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2020-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000193",
+      "question": "According to the Merck 2021 Q1 Financial Statement, what was Electronics (or Performance Materials) EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000194",
+      "question": "According to the Merck 2021 Q2 Financial Statement, what was Electronics (or Performance Materials) EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000195",
+      "question": "According to the Merck 2021 Q3 Financial Statement, what was Electronics (or Performance Materials) EBITDA pre in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000196",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000197",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000198",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000199",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000200",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000201",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000202",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000203",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000204",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000205",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000206",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000207",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000208",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000209",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in Q1 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000210",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000211",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000212",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000213",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000214",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000215",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000216",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000217",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000218",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000219",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000220",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000221",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000222",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000223",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in Q2 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000224",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000225",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000226",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000227",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000228",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000229",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000230",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000231",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000232",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000233",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000234",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000235",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000236",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000237",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in Q3 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000238",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000239",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000240",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000241",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000242",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000243",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000244",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000245",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000246",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000247",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000248",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000249",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000250",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000251",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in Q4 (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000252",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000253",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000254",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000255",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000256",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000257",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000258",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000259",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000260",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000261",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000262",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000263",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000264",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000265",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in H1 (first half-year) (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000266",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000267",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000268",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000269",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000270",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000271",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000272",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000273",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000274",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000275",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000276",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000277",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000278",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000279",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in H2 (second half-year) (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000280",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000281",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000282",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000283",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000284",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000285",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000286",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000287",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000288",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000289",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000290",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000291",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000292",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000293",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in 9M (first 9 months) (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000294",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000295",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000296",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000297",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000298",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000299",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000300",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000301",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000302",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000303",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000304",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000305",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000306",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000307",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what were Merck Group net sales in FY (full year) (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000308",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000309",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000310",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000311",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000312",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000313",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000314",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000315",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000316",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000317",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000318",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000319",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000320",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000321",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q1?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000322",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000323",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000324",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000325",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000326",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000327",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000328",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000329",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000330",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000331",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000332",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000333",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000334",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000335",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was the YoY percentage change of Merck Group net sales in Q2?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000336",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000337",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000338",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000339",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000340",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000341",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000342",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000343",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000344",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000345",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000346",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000347",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000348",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000349",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was Life Science net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000350",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000351",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000352",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000353",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000354",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000355",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000356",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000357",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000358",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000359",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000360",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000361",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000362",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000363",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was Healthcare net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000364",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000365",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000366",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000367",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000368",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000369",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000370",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000371",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000372",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000373",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000374",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000375",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000376",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000377",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was Electronics net sales in 9M (in € million)?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000378",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000379",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000380",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000381",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000382",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000383",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000384",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000385",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000386",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000387",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000388",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000389",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000390",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000391",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was the organic percentage change of Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000392",
+      "question": "According to the Merck 2021 Q4 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2021-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2021-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000393",
+      "question": "According to the Merck 2022 Q1 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000394",
+      "question": "According to the Merck 2022 Q2 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000395",
+      "question": "According to the Merck 2022 Q3 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000396",
+      "question": "According to the Merck 2022 Q4 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2022-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2022-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000397",
+      "question": "According to the Merck 2023 Q1 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000398",
+      "question": "According to the Merck 2023 Q2 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000399",
+      "question": "According to the Merck 2023 Q3 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000400",
+      "question": "According to the Merck 2023 Q4 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2023-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2023-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000401",
+      "question": "According to the Merck 2024 Q1 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000402",
+      "question": "According to the Merck 2024 Q2 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q2-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000403",
+      "question": "According to the Merck 2024 Q3 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q3-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000404",
+      "question": "According to the Merck 2024 Q4 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2024-Q4-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2024-Q4-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    },
+    {
+      "id": "YS-000405",
+      "question": "According to the Merck 2025 Q1 Financial Statement, what was the FX percentage impact on Merck Group net sales in 9M?",
+      "target": {
+        "doc": "2025-Q1-Financial-Statement-EN.pdf"
+      },
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "should_answer": true,
+      "answer_format": "text"
+    }
+  ]
+}

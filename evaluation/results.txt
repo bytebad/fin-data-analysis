@@ -1,0 +1,17 @@
+evaluation/merck_financial_statements_2025_eval.json
+
+Recall@10: 0.797
+Value@5 (given hit): 0.200  Grounded@5: 0.167
+
+Recall@10: 0.819
+Value@5 (given hit): 0.100  Grounded@5: 0.120
+
+Recall@10: 0.808
+
+Recall@10: 0.797
+Value@5 (given hit): 0.200  Grounded@5: 0.167
+
+evaluation/merck_financial_statements_2025_no_percentages_eval.json
+Recall@10: 0.774
+Value@5 (given hit): 0.083  Grounded@5: 0.067
+

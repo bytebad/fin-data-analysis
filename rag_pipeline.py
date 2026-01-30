@@ -1,3 +1,5 @@
+import json
+
 from dotenv import load_dotenv
 import os
 import uuid
@@ -7,7 +9,6 @@ import chromadb
 from concurrent.futures import ThreadPoolExecutor
 import time
 import json
-import re
 import random
 import pandas as pd
 import numpy as np
@@ -25,6 +26,8 @@ from llama_index.embeddings.gemini import GeminiEmbedding
 from llama_index.core.node_parser import SimpleNodeParser
 from llama_index.core.schema import Document, TextNode
 
+import re
+from llama_index.core import Document
 
 from google import genai
 
@@ -41,6 +44,7 @@ Settings.embed_model = GeminiEmbedding(
 )
 
 _executor = ThreadPoolExecutor(max_workers=1)
+PAGE_RE = re.compile(r"START OF PAGE:\s*(\d+)\s*\n")
 
 def run_async(coro):
     def runner():
@@ -57,7 +61,7 @@ def run_async(coro):
 def extract_markdown_tables(content: str) -> list[dict]:
     tables = []
     lines = content.split('\n')
-    
+
     i = 0
     while i < len(lines):
         line = lines[i].strip()
@@ -66,12 +70,12 @@ def extract_markdown_tables(content: str) -> list[dict]:
             table_start = i
             table_lines = [line]
             i += 1
-            
+
             # Check for separator line (|---|---|)
             if i < len(lines) and re.match(r'^\s*\|[\s\-\|:]+\|\s*$', lines[i]):
                 table_lines.append(lines[i])
                 i += 1
-            
+
             # Collect table rows until we hit a non-table line
             while i < len(lines):
                 current_line = lines[i].strip()
@@ -84,7 +88,7 @@ def extract_markdown_tables(content: str) -> list[dict]:
                     break
                 table_lines.append(lines[i])
                 i += 1
-            
+
             # Only add if we have at least header + separator + 1 row
             if len(table_lines) >= 3:
                 table_text = '\n'.join(table_lines)
@@ -98,7 +102,7 @@ def extract_markdown_tables(content: str) -> list[dict]:
                 })
         else:
             i += 1
-    
+
     return tables
 
 
@@ -107,29 +111,29 @@ def markdown_table_to_dataframe(table_text: str) -> pd.DataFrame:
         lines = [line.strip() for line in table_text.split('\n') if line.strip()]
         if len(lines) < 2:
             return pd.DataFrame()
-        
+
         # Remove separator line (|---|---|)
         lines = [line for line in lines if not re.match(r'^\|[\s\-\|:]+\|\s*$', line)]
-        
+
         if not lines:
             return pd.DataFrame()
-        
+
         # Parse header
         header_line = lines[0]
         headers = [cell.strip() for cell in header_line.split('|')[1:-1]]
-        
+
         # Parse rows
         rows = []
         for line in lines[1:]:
             cells = [cell.strip() for cell in line.split('|')[1:-1]]
             if len(cells) == len(headers):
                 rows.append(cells)
-        
+
         if not rows:
             return pd.DataFrame()
-        
+
         df = pd.DataFrame(rows, columns=headers)
-        
+
         # Auto-detect and convert numeric columns
         # This ensures aggregations work properly
         for col in df.columns:
@@ -137,25 +141,25 @@ def markdown_table_to_dataframe(table_text: str) -> pd.DataFrame:
             col_lower = str(col).lower()
             if any(skip_word in col_lower for skip_word in ['name', 'description', 'note', 'comment', 'id']):
                 continue
-            
+
             # Try to convert column to numeric
             # First, try direct conversion
             numeric_series = pd.to_numeric(df[col], errors='coerce')
             valid_count = (~numeric_series.isna()).sum()
             total_count = len(numeric_series)
-            
+
             # If direct conversion didn't work well, try to_number for formatted numbers
             if valid_count / total_count < 0.5:
                 # Most values failed direct conversion, try to_number
                 numeric_series = df[col].apply(to_number)
                 valid_count = (~numeric_series.isna()).sum()
-            
+
             # If we got at least 50% valid numeric values, convert the column
             if valid_count / total_count >= 0.5:
                 df[col] = numeric_series
-        
+
         return df
-    
+
     except Exception as e:
         logger.warning(f"Failed to convert markdown table to DataFrame: {e}")
         return pd.DataFrame()
@@ -163,27 +167,27 @@ def markdown_table_to_dataframe(table_text: str) -> pd.DataFrame:
 
 def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, chunk_overlap: int = 100) -> list[TextNode]:
     from llama_index.core.node_parser import SimpleNodeParser
-    
+
     all_nodes = []
     node_parser = SimpleNodeParser.from_defaults(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
     )
-    
+
     for doc in documents:
         content = doc.get_content()
         tables = extract_markdown_tables(content)
-        
+
         if not tables:
             # No tables found, use regular chunking
             nodes = node_parser.get_nodes_from_documents([doc])
             all_nodes.extend(nodes)
             continue
-        
+
         # Process document with tables
         last_pos = 0
         table_counter = 0
-        
+
         for table_info in tables:
             # Add text before table
             if table_info['start_pos'] > last_pos:
@@ -193,14 +197,14 @@ def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, 
                     temp_doc = Document(text=text_before, metadata=doc.metadata.copy())
                     text_nodes = node_parser.get_nodes_from_documents([temp_doc])
                     all_nodes.extend(text_nodes)
-            
+
             # Create table node
             table_text = table_info['table_text']
             table_df = markdown_table_to_dataframe(table_text)
-            
+
             table_id = f"{doc.metadata.get('doc_id', 'unknown')}_table_{table_counter}"
             table_counter += 1
-            
+
             # Create metadata with DataFrame info
             # ChromaDB only accepts str, int, float, None - so we serialize complex types to JSON strings
             table_metadata = doc.metadata.copy()
@@ -211,7 +215,7 @@ def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, 
                 'has_dataframe': 1 if not table_df.empty else 0,  # Convert bool to int
                 'table_rows': len(table_df),
             })
-            
+
             # Serialize DataFrame to JSON for storage in metadata (as strings for ChromaDB)
             if not table_df.empty:
                 try:
@@ -219,23 +223,23 @@ def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, 
                     df_dict = table_df.to_dict(orient='records')
                     columns_list = list(table_df.columns)
                     dtypes_dict = {col: str(dtype) for col, dtype in table_df.dtypes.items()}
-                    
+
                     # Serialize to JSON strings for ChromaDB compatibility
                     table_metadata['dataframe_json'] = json.dumps(df_dict)
                     table_metadata['dataframe_columns'] = json.dumps(columns_list)
                     table_metadata['dataframe_dtypes'] = json.dumps(dtypes_dict)
                 except Exception as e:
                     logger.warning(f"Failed to serialize DataFrame for table {table_id}: {e}")
-            
+
             # Create table node with full table text
             table_node = TextNode(
                 text=table_text,
                 metadata=table_metadata,
             )
             all_nodes.append(table_node)
-            
+
             last_pos = table_info['end_pos']
-        
+
         # Add remaining text after last table
         if last_pos < len(content):
             text_after = content[last_pos:].strip()
@@ -243,7 +247,7 @@ def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, 
                 temp_doc = Document(text=text_after, metadata=doc.metadata.copy())
                 text_nodes = node_parser.get_nodes_from_documents([temp_doc])
                 all_nodes.extend(text_nodes)
-    
+
     return all_nodes
 
 
@@ -259,16 +263,16 @@ def extract_dataframe_from_node(node: TextNode) -> pd.DataFrame | None:
             df_json_str = metadata.get('dataframe_json')
             columns_str = metadata.get('dataframe_columns', '[]')
             dtypes_str = metadata.get('dataframe_dtypes', '{}')
-            
+
             if df_json_str and columns_str:
                 # Parse JSON strings back to Python objects
                 df_json = json.loads(df_json_str) if isinstance(df_json_str, str) else df_json_str
                 columns = json.loads(columns_str) if isinstance(columns_str, str) else columns_str
                 dtypes = json.loads(dtypes_str) if isinstance(dtypes_str, str) else dtypes_str
-                
+
                 if df_json and columns:
                     df = pd.DataFrame(df_json)
-                    
+
                     # Restore numeric types that may have been lost in JSON serialization
                     for col in df.columns:
                         if col in dtypes:
@@ -282,7 +286,7 @@ def extract_dataframe_from_node(node: TextNode) -> pd.DataFrame | None:
                                 else:
                                     # If direct conversion fails, use to_number for formatted values
                                     df[col] = df[col].apply(to_number)
-                    
+
                     return df
         except Exception as e:
             logger.warning(f"Failed to reconstruct DataFrame from node metadata: {e}")
@@ -295,9 +299,32 @@ class RAGPipeline:
         self.storage_path = storage_path
         self.client = chromadb.PersistentClient(path=db_path)
         self.collection = self.client.get_or_create_collection("documents")
+        self.client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
     def ingest_pdf(self, pdf_path):
         logger.info("Starting PDF ingestion (isolated from uvloop)")
+
+        def split_markdown_into_pages(markdown_text: str, base_meta: dict) -> list[Document]:
+            parts = PAGE_RE.split(markdown_text)
+            # parts looks like: [preamble, pageNo1, text1, pageNo2, text2, ...]
+            page_docs = []
+
+            if len(parts) < 3:
+                # No page markers found — fallback to single doc
+                return [Document(text=markdown_text, metadata=base_meta)]
+
+            # skip preamble at parts[0]
+            for i in range(1, len(parts), 2):
+                page_no = int(parts[i])
+                page_text = parts[i + 1].strip()
+                if not page_text:
+                    continue
+
+                meta = dict(base_meta)
+                meta["page_number"] = page_no
+                page_docs.append(Document(text=page_text, metadata=meta))
+
+            return page_docs
 
         def run_ingestion_in_thread():
             loop = asyncio.new_event_loop()
@@ -312,18 +339,20 @@ class RAGPipeline:
                     api_key=os.getenv("LLAMA_API_KEY"),
                     result_type="markdown",
                     parsing_instruction="Reconstruct all tables in Markdown.",
+                    page_prefix="START OF PAGE: {pageNumber}\n"
                 )
 
                 documents = loop.run_until_complete(parser.aload_data(pdf_path))
                 logger.info(f"Parsed {len(documents)} documents")
 
-                for doc in documents:
-                    doc.metadata = doc.metadata or {}
-                    doc.metadata.update({
-                        "doc_id": doc_id,
-                        "file_name": file_name,
-                        "file_path": pdf_path,
-                    })
+                base_meta = {
+                    "doc_id": doc_id,
+                    "file_name": file_name,
+                    "file_path": pdf_path,
+                }
+
+                all_md = "\n\n".join(d.text for d in documents)
+                page_documents = split_markdown_into_pages(all_md, base_meta)
                     
 
                 # ✅ Table-aware parser that preserves complete tables
@@ -333,7 +362,7 @@ class RAGPipeline:
                     chunk_size=1024,
                     chunk_overlap=100
                 )
-                
+
                 # Count table nodes vs text nodes
                 table_nodes = sum(1 for n in nodes if n.metadata.get('node_type') == 'table')
                 text_nodes = len(nodes) - table_nodes
@@ -362,6 +391,7 @@ class RAGPipeline:
                     index = VectorStoreIndex(nodes, storage_context=storage, show_progress=True)
 
                 storage.persist(self.storage_path)
+
 
                 logger.info(f"Ingestion complete for {file_name}")
 
@@ -507,7 +537,7 @@ class RAGPipeline:
 
         if not nodes:
             logger.info("Retriever returned 0 nodes for query")
-        
+
         # Extract DataFrames from table nodes for pandas execution
         for node in nodes:
             df = extract_dataframe_from_node(node)
@@ -515,9 +545,9 @@ class RAGPipeline:
                 # Store DataFrame in node metadata for easy access
                 if not hasattr(node, '_dataframe'):
                     node._dataframe = df
-        
+
         return nodes
-    
+
     def get_table_candidates_from_nodes(self, nodes: list) -> list[dict]:
         candidates = []
         for node in nodes:
@@ -534,11 +564,12 @@ class RAGPipeline:
 
     def generate_answer(self, query, nodes):
         context = "\n\n".join(n.get_content() for n in nodes)
+        #client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         if not context.strip():
             return "I couldn't find relevant context in the indexed documents to answer that. Try rephrasing with more specific terms (metric, year, segment) or upload the relevant report."
         client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-        response = client.models.generate_content(
+        response = self.client.models.generate_content(
             model="gemini-2.5-flash",
             contents=(
                 "You are a careful financial report assistant.\n"
@@ -552,38 +583,38 @@ class RAGPipeline:
             ),
         )
         return response.text.strip()
-    
+
     def query_with_routing(self, query: str, top_k: int = 5, prefer_quantitative: bool = True) -> dict:
         # Retrieve relevant nodes
         nodes = self.query_documents(query, top_k=top_k)
-        
+
         # Check if we have table nodes with DataFrames
         table_candidates = self.get_table_candidates_from_nodes(nodes)
-        
+
         # Try quantitative approach if tables are available and query seems quantitative
         if table_candidates and prefer_quantitative:
             # Check if query seems to require calculations
             quantitative_keywords = [
-                'sum', 'total', 'average', 'mean', 'max', 'min', 'calculate', 
-                'compute', 'aggregate', 'compare', 'growth', 'percentage', 
-                'ratio', 'difference', 'by', 'group', 'per', 'more than', 
+                'sum', 'total', 'average', 'mean', 'max', 'min', 'calculate',
+                'compute', 'aggregate', 'compare', 'growth', 'percentage',
+                'ratio', 'difference', 'by', 'group', 'per', 'more than',
                 'less than', 'greater', 'higher', 'lower'
             ]
             query_lower = query.lower()
             is_quantitative_query = any(keyword in query_lower for keyword in quantitative_keywords)
-            
+
             # Also check if query mentions numeric operations
             has_numbers = bool(re.search(r'\d+', query))
-            
+
             if is_quantitative_query or has_numbers or len(table_candidates) > 0:
                 # Try quantitative approach
                 result = answer_over_candidates(
-                    query, 
-                    table_candidates, 
+                    query,
+                    table_candidates,
                     max_retries_per_table=2,
                     require_compatibility=False
                 )
-                
+
                 if result.get("status") == "OK":
                     return {
                         "answer": result["final_answer"],
@@ -602,7 +633,7 @@ class RAGPipeline:
                         logger.warning(f"Quantitative approach failed: {result.get('error', 'Unknown error')}, falling back to qualitative")
                     else:
                         logger.info("Quantitative approach returned NOT_FOUND, falling back to qualitative")
-        
+
         # Fall back to qualitative approach (text-based)
         answer = self.generate_answer(query, nodes)
         return {
@@ -612,6 +643,73 @@ class RAGPipeline:
         }
 
 
+    def generate_answer_eval(
+            self,
+            query: str,
+            nodes,
+            gold_type: str,
+            gold_unit: str,
+            max_chars_per_node: int = 1400
+    ) -> str:
+        """
+        Evaluation-only answer generation.
+        Forces JSON-only output with a single numeric value and unit.
+        """
+        # cap context to reduce TPM usage and reduce distractions
+        context_parts = []
+        for n in nodes:
+            txt = n.get_content() or ""
+            context_parts.append(txt[:max_chars_per_node])
+        context = "\n\n".join(context_parts)
+
+        # unit/type instructions
+        if gold_type == "percent":
+            unit_instr = 'Return unit exactly as "%".'
+            value_instr = "Return value as a percentage number (e.g., 12.3 for 12.3%)."
+        else:
+            # default numbers in € million for your dataset
+            unit_instr = 'Return unit exactly as "€ million" unless the context explicitly provides another unit.'
+            value_instr = "If context uses € billion/bn, convert to € million."
+
+        schema = {
+            "value": "number | null",
+            "unit": 'one of ["€ million", "%", "€"]',
+            "found": "boolean",
+            "evidence_quote": "string (short quote containing the value, optional)"
+        }
+
+        prompt = f"""
+            You are a strict extraction engine for numeric QA over financial statements.
+            
+            TASK:
+            Extract the single numeric answer from the provided context and output ONLY valid JSON.
+            
+            OUTPUT JSON SCHEMA (follow exactly):
+            {json.dumps(schema, indent=2)}
+            
+            RULES:
+            - Output ONLY JSON (no markdown, no explanation).
+            - If the value cannot be determined from the context, output:
+              {{ "value": null, "unit": "{gold_unit}", "found": false, "evidence_quote": "" }}
+            - gold_type = "{gold_type}"
+            - gold_unit = "{gold_unit}"
+            - {unit_instr}
+            - {value_instr}
+            - Prefer the value for the requested period/year; do not include comparison values.
+            
+            Context:
+            {context}
+            
+            Question:
+            {query}
+            """.strip()
+
+        resp = self.client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        return (resp.text or "").strip()
+
 
 def save_uploaded_file(uploaded_file, upload_dir="uploads"):
     os.makedirs(upload_dir, exist_ok=True)
@@ -620,6 +718,10 @@ def save_uploaded_file(uploaded_file, upload_dir="uploads"):
         f.write(uploaded_file.getbuffer())
     return path
 
+
+# ==========================================
+# (CELL 4) Numeric robustness helpers
+# ==========================================
 def to_number(x):
     if x is None:
         return np.nan
@@ -812,7 +914,7 @@ def is_table_compatible(df: pd.DataFrame) -> bool:
 def answer_over_candidates(question: str, candidates: list[dict], max_retries_per_table: int = 1, require_compatibility: bool = False) -> dict:
     for cand in candidates:
         df = cand["df"]
-        
+
         if require_compatibility and not is_table_compatible(df):
             continue  # skip tables without Group & FY for this kind of query
 

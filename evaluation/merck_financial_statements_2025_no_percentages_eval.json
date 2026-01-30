@@ -1,0 +1,5441 @@
+{
+  "dataset_id": "merck_financial_statements_2025_eval",
+  "items": [
+    {
+      "id": "2025-Q1-NETSALES-GROUP-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what were Group net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 5280.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | Q1 (2025) = 5,280.1"
+    },
+    {
+      "id": "2025-Q1-NETSALES-GROUP-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 160.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q1 (2025) = 160.3"
+    },
+    {
+      "id": "2025-Q1-NETSALES-GROUP-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 12.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q1 (2025) = 12.3"
+    },
+    {
+      "id": "2025-Q1-NETSALES-GROUP-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 18.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q1 (2025) = 18.5"
+    },
+    {
+      "id": "2025-Q1-NETSALES-GROUP-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 129.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q1 (2025) = 129.5"
+    },
+    {
+      "id": "2025-Q1-NETSALES-LIFESCIENCE-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what were Life Science net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 2217.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | Q1 (2025) = 2,217.8"
+    },
+    {
+      "id": "2025-Q1-NETSALES-LIFESCIENCE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 74.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q1 (2025) = 74.1"
+    },
+    {
+      "id": "2025-Q1-NETSALES-LIFESCIENCE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 6.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q1 (2025) = 6.4"
+    },
+    {
+      "id": "2025-Q1-NETSALES-LIFESCIENCE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 13.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q1 (2025) = 13.0"
+    },
+    {
+      "id": "2025-Q1-NETSALES-LIFESCIENCE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 54.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q1 (2025) = 54.6"
+    },
+    {
+      "id": "2025-Q1-NETSALES-HEALTHCARE-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what were Healthcare net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 2114.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | Q1 (2025) = 2,114.1"
+    },
+    {
+      "id": "2025-Q1-NETSALES-HEALTHCARE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 66.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q1 (2025) = 66.4"
+    },
+    {
+      "id": "2025-Q1-NETSALES-HEALTHCARE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": -3.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q1 (2025) = -3.3"
+    },
+    {
+      "id": "2025-Q1-NETSALES-HEALTHCARE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 69.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q1 (2025) = 69.7"
+    },
+    {
+      "id": "2025-Q1-NETSALES-ELECTRONICS-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what were Electronics net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 948.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | Q1 (2025) = 948.2"
+    },
+    {
+      "id": "2025-Q1-NETSALES-ELECTRONICS-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 19.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q1 (2025) = 19.9"
+    },
+    {
+      "id": "2025-Q1-NETSALES-ELECTRONICS-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 6.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q1 (2025) = 6.0"
+    },
+    {
+      "id": "2025-Q1-NETSALES-ELECTRONICS-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 8.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q1 (2025) = 8.7"
+    },
+    {
+      "id": "2025-Q1-NETSALES-ELECTRONICS-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q1 (2025) = 5.2"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-GROUP-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 1535.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group EBITDA pre | Q1 (2025) = 1,535.1"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-GROUP-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 81.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q1 (2025) = 81.2"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-GROUP-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": -6.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q1 (2025) = -6.7"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-GROUP-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 3.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q1 (2025) = 3.5"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-GROUP-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Group EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 84.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q1 (2025) = 84.4"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-LIFESCIENCE-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 622.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science EBITDA pre | Q1 (2025) = 622.3"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-LIFESCIENCE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 11.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q1 (2025) = 11.1"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-LIFESCIENCE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": -4.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q1 (2025) = -4.4"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-LIFESCIENCE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": -3.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q1 (2025) = -3.5"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-LIFESCIENCE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Life Science EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 19.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q1 (2025) = 19.0"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-HEALTHCARE-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 795.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare EBITDA pre | Q1 (2025) = 795.8"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-HEALTHCARE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 87.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q1 (2025) = 87.8"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-HEALTHCARE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q1 (2025) = 5.3"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-HEALTHCARE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Healthcare EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 82.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q1 (2025) = 82.5"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-ELECTRONICS-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 244.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics EBITDA pre | Q1 (2025) = 244.3"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-ELECTRONICS-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 7.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q1 (2025) = 7.7"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-ELECTRONICS-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": -2.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q1 (2025) = -2.2"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-ELECTRONICS-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q1 (2025) = 5.1"
+    },
+    {
+      "id": "2025-Q1-EBITDApre-ELECTRONICS-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q1 statement), what was Electronics EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 4.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q1-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q1 (2025) = 4.7"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Group net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 5280.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | Q1 (2025) = 5,280.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Group net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 5352.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | Q2 (2025) = 5,352.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Group net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 10535.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | H1 (2025) = 10,535.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 160.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q1 (2025) = 160.3"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": 49.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q2 (2025) = 49.8"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 63.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | H1 (2025) = 63.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 12.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q1 (2025) = 12.3"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": -2.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q2 (2025) = -2.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 35.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | H1 (2025) = 35.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 18.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q1 (2025) = 18.5"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -38.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q2 (2025) = -38.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -208.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | H1 (2025) = -208.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 129.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q1 (2025) = 129.5"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 90.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q2 (2025) = 90.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-GROUP-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 236.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | H1 (2025) = 236.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Life Science net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 2217.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | Q1 (2025) = 2,217.8"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Life Science net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 2258.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | Q2 (2025) = 2,258.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Life Science net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 4484.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | H1 (2025) = 4,484.5"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 74.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q1 (2025) = 74.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -95.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q2 (2025) = -95.5"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 82.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | H1 (2025) = 82.8"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 6.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q1 (2025) = 6.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 12.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | H1 (2025) = 12.7"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 13.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q1 (2025) = 13.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -8.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q2 (2025) = -8.5"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -68.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | H1 (2025) = -68.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 54.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q1 (2025) = 54.6"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": -87.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q2 (2025) = -87.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-LIFESCIENCE-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 138.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | H1 (2025) = 138.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Healthcare net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 2114.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | Q1 (2025) = 2,114.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Healthcare net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 2136.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | Q2 (2025) = 2,136.7"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Healthcare net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 4215.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | H1 (2025) = 4,215.8"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 66.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q1 (2025) = 66.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": 87.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q2 (2025) = 87.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 31.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | H1 (2025) = 31.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q1 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q2 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | H1 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": -3.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q1 (2025) = -3.3"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -21.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q2 (2025) = -21.8"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -115.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | H1 (2025) = -115.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 69.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q1 (2025) = 69.7"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 109.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q2 (2025) = 109.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-HEALTHCARE-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 146.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | H1 (2025) = 146.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Electronics net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 948.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | Q1 (2025) = 948.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Electronics net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 957.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | Q2 (2025) = 957.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what were Electronics net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 1834.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | H1 (2025) = 1,834.7"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 19.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q1 (2025) = 19.9"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": 58.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q2 (2025) = 58.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": -51.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | H1 (2025) = -51.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 6.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q1 (2025) = 6.0"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": -2.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q2 (2025) = -2.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 22.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | H1 (2025) = 22.4"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 8.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q1 (2025) = 8.7"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -8.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q2 (2025) = -8.1"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -25.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | H1 (2025) = -25.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q1 (2025) = 5.2"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 68.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q2 (2025) = 68.3"
+    },
+    {
+      "id": "2025-Q2-NETSALES-ELECTRONICS-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": -48.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | H1 (2025) = -48.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 1535.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group EBITDA pre | Q1 (2025) = 1,535.1"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 1462.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group EBITDA pre | Q2 (2025) = 1,462.4"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre in H1 (in € million)?",
+      "gold_answer": {
+        "value": 2997.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group EBITDA pre | H1 (2025) = 2,997.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 81.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q1 (2025) = 81.2"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -46.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q2 (2025) = -46.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 34.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | H1 (2025) = 34.7"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": -6.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q1 (2025) = -6.7"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": -7.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q2 (2025) = -7.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": -13.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | H1 (2025) = -13.7"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 3.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q1 (2025) = 3.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -108.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q2 (2025) = -108.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -105.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | H1 (2025) = -105.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 84.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q1 (2025) = 84.4"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 69.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q2 (2025) = 69.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-GROUP-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Group EBITDA pre Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 153.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | H1 (2025) = 153.4"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 622.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science EBITDA pre | Q1 (2025) = 622.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 646.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science EBITDA pre | Q2 (2025) = 646.1"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre in H1 (in € million)?",
+      "gold_answer": {
+        "value": 1268.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science EBITDA pre | H1 (2025) = 1,268.4"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 11.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q1 (2025) = 11.1"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -8.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q2 (2025) = -8.6"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 2.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | H1 (2025) = 2.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": -4.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q1 (2025) = -4.4"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": -6.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q2 (2025) = -6.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": -10.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | H1 (2025) = -10.4"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": -3.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q1 (2025) = -3.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -27.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q2 (2025) = -27.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -30.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | H1 (2025) = -30.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 19.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q1 (2025) = 19.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 24.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q2 (2025) = 24.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-LIFESCIENCE-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Life Science EBITDA pre Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 43.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | H1 (2025) = 43.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 795.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare EBITDA pre | Q1 (2025) = 795.8"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 782.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare EBITDA pre | Q2 (2025) = 782.8"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre in H1 (in € million)?",
+      "gold_answer": {
+        "value": 1578.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare EBITDA pre | H1 (2025) = 1,578.6"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 87.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q1 (2025) = 87.8"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": 63.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q2 (2025) = 63.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 150.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | H1 (2025) = 150.8"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q1 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q2 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | H1 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q1 (2025) = 5.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -81.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q2 (2025) = -81.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -76.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | H1 (2025) = -76.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 82.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q1 (2025) = 82.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 144.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q2 (2025) = 144.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-HEALTHCARE-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Healthcare EBITDA pre Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 226.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | H1 (2025) = 226.8"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 244.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics EBITDA pre | Q1 (2025) = 244.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 133.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics EBITDA pre | Q2 (2025) = 133.6"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre in H1 (in € million)?",
+      "gold_answer": {
+        "value": 377.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics EBITDA pre | H1 (2025) = 377.9"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 7.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q1 (2025) = 7.7"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -121.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q2 (2025) = -121.6"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre YoY ∆ in H1?",
+      "gold_answer": {
+        "value": -114.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | H1 (2025) = -114.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": -2.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q1 (2025) = -2.2"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": -1.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q2 (2025) = -1.1"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": -3.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | H1 (2025) = -3.3"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q1 (2025) = 5.1"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -15.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q2 (2025) = -15.0"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -9.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | H1 (2025) = -9.9"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 4.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q1 (2025) = 4.7"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": -105.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q2 (2025) = -105.5"
+    },
+    {
+      "id": "2025-Q2-EBITDApre-ELECTRONICS-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q2 statement), what was Electronics EBITDA pre Organic ∆ in H1?",
+      "gold_answer": {
+        "value": -100.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q2-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | H1 (2025) = -100.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Group net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 5280.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | Q1 (2025) = 5,280.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Group net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 5254.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | Q2 (2025) = 5,254.9"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Group net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 10535.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | H1 (2025) = 10,535.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Group net sales in Q3 (in € million)?",
+      "gold_answer": {
+        "value": 5266.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | Q3 (2025) = 5,266.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Group net sales in 9M (in € million)?",
+      "gold_answer": {
+        "value": 15738.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group | 9M (2025) = 15,738.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 160.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q1 (2025) = 160.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -97.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q2 (2025) = -97.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 63.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | H1 (2025) = 63.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-YoYDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales YoY ∆ in Q3?",
+      "gold_answer": {
+        "value": 93.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | Q3 (2025) = 93.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-YoYDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales YoY ∆ in 9M?",
+      "gold_answer": {
+        "value": -30.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group YoY ∆ | 9M (2025) = -30.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 12.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q1 (2025) = 12.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": 22.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q2 (2025) = 22.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 35.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | H1 (2025) = 35.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-AcquisitionsDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Acquisitions ∆ in Q3?",
+      "gold_answer": {
+        "value": -1.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | Q3 (2025) = -1.9"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-AcquisitionsDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Acquisitions ∆ in 9M?",
+      "gold_answer": {
+        "value": -4.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Acquisitions ∆ | 9M (2025) = -4.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 18.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q1 (2025) = 18.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -226.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q2 (2025) = -226.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -208.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | H1 (2025) = -208.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-FxDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Fx ∆ in Q3?",
+      "gold_answer": {
+        "value": -102.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | Q3 (2025) = -102.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-FxDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Fx ∆ in 9M?",
+      "gold_answer": {
+        "value": -249.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Fx ∆ | 9M (2025) = -249.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 129.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q1 (2025) = 129.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 106.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q2 (2025) = 106.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 236.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | H1 (2025) = 236.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-OrganicDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Organic ∆ in Q3?",
+      "gold_answer": {
+        "value": 197.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | Q3 (2025) = 197.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-GROUP-OrganicDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Group net sales Organic ∆ in 9M?",
+      "gold_answer": {
+        "value": 223.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Group Organic ∆ | 9M (2025) = 223.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Life Science net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 2217.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | Q1 (2025) = 2,217.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Life Science net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 2266.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | Q2 (2025) = 2,266.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Life Science net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 4484.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | H1 (2025) = 4,484.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Life Science net sales in Q3 (in € million)?",
+      "gold_answer": {
+        "value": 2209.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | Q3 (2025) = 2,209.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Life Science net sales in 9M (in € million)?",
+      "gold_answer": {
+        "value": 6611.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science | 9M (2025) = 6,611.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 74.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q1 (2025) = 74.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": 8.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q2 (2025) = 8.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 82.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | H1 (2025) = 82.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-YoYDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales YoY ∆ in Q3?",
+      "gold_answer": {
+        "value": 18.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | Q3 (2025) = 18.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-YoYDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales YoY ∆ in 9M?",
+      "gold_answer": {
+        "value": -419.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science YoY ∆ | 9M (2025) = -419.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 6.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q1 (2025) = 6.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": 6.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q2 (2025) = 6.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 12.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | H1 (2025) = 12.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-AcquisitionsDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Acquisitions ∆ in Q3?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | Q3 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-AcquisitionsDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Acquisitions ∆ in 9M?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Acquisitions ∆ | 9M (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 13.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q1 (2025) = 13.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -81.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q2 (2025) = -81.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -68.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | H1 (2025) = -68.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-FxDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Fx ∆ in Q3?",
+      "gold_answer": {
+        "value": -27.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | Q3 (2025) = -27.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-FxDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Fx ∆ in 9M?",
+      "gold_answer": {
+        "value": -66.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Fx ∆ | 9M (2025) = -66.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 54.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q1 (2025) = 54.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 83.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q2 (2025) = 83.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 138.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | H1 (2025) = 138.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-OrganicDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Organic ∆ in Q3?",
+      "gold_answer": {
+        "value": 46.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | Q3 (2025) = 46.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-LIFESCIENCE-OrganicDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Life Science net sales Organic ∆ in 9M?",
+      "gold_answer": {
+        "value": -353.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Life Science Organic ∆ | 9M (2025) = -353.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Healthcare net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 2114.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | Q1 (2025) = 2,114.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Healthcare net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 2101.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | Q2 (2025) = 2,101.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Healthcare net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 4215.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | H1 (2025) = 4,215.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Healthcare net sales in Q3 (in € million)?",
+      "gold_answer": {
+        "value": 2133.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | Q3 (2025) = 2,133.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Healthcare net sales in 9M (in € million)?",
+      "gold_answer": {
+        "value": 6317.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare | 9M (2025) = 6,317.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 66.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q1 (2025) = 66.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -35.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q2 (2025) = -35.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": 31.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | H1 (2025) = 31.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-YoYDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales YoY ∆ in Q3?",
+      "gold_answer": {
+        "value": 67.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | Q3 (2025) = 67.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-YoYDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales YoY ∆ in 9M?",
+      "gold_answer": {
+        "value": 296.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare YoY ∆ | 9M (2025) = 296.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q1 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q2 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | H1 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-AcquisitionsDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Acquisitions ∆ in Q3?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | Q3 (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-AcquisitionsDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Acquisitions ∆ in 9M?",
+      "gold_answer": {
+        "value": 0.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Acquisitions ∆ | 9M (2025) = 0.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": -3.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q1 (2025) = -3.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -111.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q2 (2025) = -111.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -115.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | H1 (2025) = -115.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-FxDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Fx ∆ in Q3?",
+      "gold_answer": {
+        "value": -62.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | Q3 (2025) = -62.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-FxDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Fx ∆ in 9M?",
+      "gold_answer": {
+        "value": -133.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Fx ∆ | 9M (2025) = -133.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 69.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q1 (2025) = 69.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": 76.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q2 (2025) = 76.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": 146.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | H1 (2025) = 146.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-OrganicDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Organic ∆ in Q3?",
+      "gold_answer": {
+        "value": 129.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | Q3 (2025) = 129.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-HEALTHCARE-OrganicDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Healthcare net sales Organic ∆ in 9M?",
+      "gold_answer": {
+        "value": 429.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Healthcare Organic ∆ | 9M (2025) = 429.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Electronics net sales in Q1 (in € million)?",
+      "gold_answer": {
+        "value": 948.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | Q1 (2025) = 948.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Electronics net sales in Q2 (in € million)?",
+      "gold_answer": {
+        "value": 886.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | Q2 (2025) = 886.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Electronics net sales in H1 (in € million)?",
+      "gold_answer": {
+        "value": 1834.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | H1 (2025) = 1,834.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Electronics net sales in Q3 (in € million)?",
+      "gold_answer": {
+        "value": 923.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | Q3 (2025) = 923.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what were Electronics net sales in 9M (in € million)?",
+      "gold_answer": {
+        "value": 2808.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.5
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics | 9M (2025) = 2,808.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-YoYDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales YoY ∆ in Q1?",
+      "gold_answer": {
+        "value": 19.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q1 (2025) = 19.9"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-YoYDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales YoY ∆ in Q2?",
+      "gold_answer": {
+        "value": -70.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q2 (2025) = -70.9"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-YoYDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales YoY ∆ in H1?",
+      "gold_answer": {
+        "value": -51.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | H1 (2025) = -51.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-YoYDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales YoY ∆ in Q3?",
+      "gold_answer": {
+        "value": 7.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | Q3 (2025) = 7.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-YoYDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales YoY ∆ in 9M?",
+      "gold_answer": {
+        "value": 92.8,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics YoY ∆ | 9M (2025) = 92.8"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-AcquisitionsDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Acquisitions ∆ in Q1?",
+      "gold_answer": {
+        "value": 6.0,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q1 (2025) = 6.0"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-AcquisitionsDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Acquisitions ∆ in Q2?",
+      "gold_answer": {
+        "value": 16.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q2 (2025) = 16.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-AcquisitionsDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Acquisitions ∆ in H1?",
+      "gold_answer": {
+        "value": 22.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | H1 (2025) = 22.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-AcquisitionsDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Acquisitions ∆ in Q3?",
+      "gold_answer": {
+        "value": -1.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | Q3 (2025) = -1.9"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-AcquisitionsDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Acquisitions ∆ in 9M?",
+      "gold_answer": {
+        "value": -4.6,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Acquisitions ∆ | 9M (2025) = -4.6"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-FxDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Fx ∆ in Q1?",
+      "gold_answer": {
+        "value": 8.7,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q1 (2025) = 8.7"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-FxDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Fx ∆ in Q2?",
+      "gold_answer": {
+        "value": -33.9,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q2 (2025) = -33.9"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-FxDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Fx ∆ in H1?",
+      "gold_answer": {
+        "value": -25.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | H1 (2025) = -25.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-FxDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Fx ∆ in Q3?",
+      "gold_answer": {
+        "value": -13.4,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | Q3 (2025) = -13.4"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-FxDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Fx ∆ in 9M?",
+      "gold_answer": {
+        "value": -50.1,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Fx ∆ | 9M (2025) = -50.1"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-OrganicDELTA-Q1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Organic ∆ in Q1?",
+      "gold_answer": {
+        "value": 5.2,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q1 (2025) = 5.2"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-OrganicDELTA-Q2-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Organic ∆ in Q2?",
+      "gold_answer": {
+        "value": -53.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q2 (2025) = -53.5"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-OrganicDELTA-H1-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Organic ∆ in H1?",
+      "gold_answer": {
+        "value": -48.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | H1 (2025) = -48.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-OrganicDELTA-Q3-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Organic ∆ in Q3?",
+      "gold_answer": {
+        "value": 22.3,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | Q3 (2025) = 22.3"
+    },
+    {
+      "id": "2025-Q3-NETSALES-ELECTRONICS-OrganicDELTA-9M-Y2025",
+      "question": "In 2025 (2025 Q3 statement), what was Electronics net sales Organic ∆ in 9M?",
+      "gold_answer": {
+        "value": 147.5,
+        "unit": "€ million",
+        "type": "number"
+      },
+      "answer_format": "number",
+      "tolerance": {
+        "absolute": 0.1
+      },
+      "must_cite": true,
+      "evidence": [
+        {
+          "doc": "2025-Q3-Financial-Statement-EN.pdf",
+          "page": 2
+        }
+      ],
+      "gold_span": "Electronics Organic ∆ | 9M (2025) = 147.5"
+    }
+  ],
+  "stats": {
+    "per_doc": {
+      "2025-Q1-Financial-Statement-EN.pdf": 46,
+      "2025-Q2-Financial-Statement-EN.pdf": 158,
+      "2025-Q3-Financial-Statement-EN.pdf": 180
+    },
+    "duplicates_removed": 9,
+    "items_total_before_dedup": 384,
+    "original_count": 373,
+    "removed_percentage_count": 116,
+    "remaining_count": 257
+  },
+  "debug": {
+    "tables_seen": {
+      "2025-Q1-Financial-Statement-EN.pdf": {
+        "total_tables": 25,
+        "matched_tables": 3,
+        "by_kind": {
+          "net_sales": 2,
+          "ebitda": 1
+        }
+      },
+      "2025-Q2-Financial-Statement-EN.pdf": {
+        "total_tables": 24,
+        "matched_tables": 3,
+        "by_kind": {
+          "net_sales": 2,
+          "ebitda": 1
+        }
+      },
+      "2025-Q3-Financial-Statement-EN.pdf": {
+        "total_tables": 25,
+        "matched_tables": 2,
+        "by_kind": {
+          "net_sales": 2
+        }
+      }
+    }
+  }
+}
