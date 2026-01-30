@@ -9,7 +9,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# Session state - initialize BEFORE any handlers
 for key, default in {
     "rag_pipeline": None,
     "messages": [],
@@ -22,10 +21,8 @@ for key, default in {
     if key not in st.session_state:
         st.session_state[key] = default
 
-# Logging to Streamlit
 class StreamlitLogHandler(logging.Handler):
     def emit(self, record):
-        # Safely append to logs, ensuring it exists
         if "logs" not in st.session_state:
             st.session_state.logs = []
         st.session_state.logs.append(self.format(record))
@@ -40,10 +37,6 @@ logger.addHandler(handler)
 
 def main():
     st.title("📚 Financial Reports Q&A")
-
-    # -----------------------------
-    # Session State Initialization
-    # -----------------------------
     if (
         "rag_pipeline" not in st.session_state
         or st.session_state.rag_pipeline is None
@@ -68,14 +61,8 @@ def main():
 
     if "pending_question" not in st.session_state:
         st.session_state.pending_question = None
-
-    # -----------------------------
-    # Sidebar
-    # -----------------------------
     with st.sidebar:
         st.header("📄 Documents")
-
-        # Upload
         uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
 
         if uploaded_file and uploaded_file.name != st.session_state.current_file:
@@ -89,14 +76,10 @@ def main():
                 st.session_state.rag_pipeline.ingest_pdf(file_path)
 
             os.remove(file_path)
-
-            # Refresh document list from persistent store
             st.session_state.documents = st.session_state.rag_pipeline.list_documents()
             st.session_state.ingestion_complete = True
 
             st.success("Document indexed successfully!")
-
-        # Document list (persistent)
         if st.session_state.documents:
             st.subheader("Previously Uploaded")
             for doc in st.session_state.documents:
@@ -104,10 +87,6 @@ def main():
 
         else:
             st.info("No documents indexed yet.")
-
-    # -----------------------------
-    # Main Panel
-    # -----------------------------
     if not st.session_state.documents:
         st.info("Upload a document to begin.")
         return

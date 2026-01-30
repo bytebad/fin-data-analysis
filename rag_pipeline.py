@@ -32,7 +32,6 @@ load_dotenv()
 logger = logging.getLogger("rag_pipeline")
 logging.basicConfig(level=logging.INFO)
 
-# Models
 Settings.llm = Gemini(
     api_key=os.getenv("GEMINI_API_KEY"),
     model="models/gemini-flash-lite-latest",
@@ -44,11 +43,6 @@ Settings.embed_model = GeminiEmbedding(
 _executor = ThreadPoolExecutor(max_workers=1)
 
 def run_async(coro):
-    """
-    Run async code safely in Streamlit by isolating it
-    in a dedicated thread + event loop.
-    """
-
     def runner():
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
@@ -60,15 +54,7 @@ def run_async(coro):
     return _executor.submit(runner).result()
 
 
-# ==========================================
-# Table Extraction and Conversion Functions
-# ==========================================
-
 def extract_markdown_tables(content: str) -> list[dict]:
-    """
-    Extract complete markdown tables from content.
-    Returns list of dicts with table_text, start_pos, end_pos.
-    """
     tables = []
     lines = content.split('\n')
     
@@ -117,11 +103,6 @@ def extract_markdown_tables(content: str) -> list[dict]:
 
 
 def markdown_table_to_dataframe(table_text: str) -> pd.DataFrame:
-    """
-    Convert markdown table string to pandas DataFrame.
-    Handles various markdown table formats.
-    Automatically detects and converts numeric columns for proper aggregations.
-    """
     try:
         lines = [line.strip() for line in table_text.split('\n') if line.strip()]
         if len(lines) < 2:
@@ -181,10 +162,6 @@ def markdown_table_to_dataframe(table_text: str) -> pd.DataFrame:
 
 
 def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, chunk_overlap: int = 100) -> list[TextNode]:
-    """
-    Create nodes from documents, preserving complete tables as single nodes.
-    Tables are converted to DataFrames and stored in metadata.
-    """
     from llama_index.core.node_parser import SimpleNodeParser
     
     all_nodes = []
@@ -271,11 +248,6 @@ def create_table_aware_nodes(documents: list[Document], chunk_size: int = 1024, 
 
 
 def extract_dataframe_from_node(node: TextNode) -> pd.DataFrame | None:
-    """
-    Extract DataFrame from node metadata if it's a table node.
-    Reconstructs DataFrame and preserves numeric types for proper aggregations.
-    Handles JSON string deserialization from ChromaDB metadata.
-    """
     metadata = node.metadata or {}
     # Check has_dataframe (stored as int: 1 or 0, or bool for backward compatibility)
     has_dataframe = metadata.get('has_dataframe', 0)
@@ -547,10 +519,6 @@ class RAGPipeline:
         return nodes
     
     def get_table_candidates_from_nodes(self, nodes: list) -> list[dict]:
-        """
-        Extract table candidates (with DataFrames) from query nodes.
-        Returns list of dicts with 'df', 'metadata', 'table_id', 'node'.
-        """
         candidates = []
         for node in nodes:
             df = extract_dataframe_from_node(node)
@@ -572,25 +540,20 @@ class RAGPipeline:
 
         response = client.models.generate_content(
             model="gemini-2.5-flash",
-            contents=f"Context:\n{context}\n\nQuestion: {query}\nAnswer:",
+            contents=(
+                "You are a careful financial report assistant.\n"
+                "You MUST answer the user's question if the answer is present anywhere in the provided context.\n"
+                "Only say the information is not provided if you have checked the entire context and it is truly absent.\n"
+                "If the context contains the answer, respond with the answer and include 1-3 short supporting quotes from the context (verbatim).\n"
+                "If the context contains partial information, answer with what is supported and explicitly state what is missing.\n\n"
+                f"Context:\n{context}\n\n"
+                f"Question: {query}\n"
+                "Answer:"
+            ),
         )
         return response.text.strip()
     
     def query_with_routing(self, query: str, top_k: int = 5, prefer_quantitative: bool = True) -> dict:
-        """
-        Unified query method that routes to quantitative (pandas) or qualitative (text) handlers.
-        
-        Args:
-            query: The user's question
-            top_k: Number of nodes to retrieve
-            prefer_quantitative: If True, try quantitative approach first when tables are available
-        
-        Returns:
-            dict with:
-            - answer: The final answer text
-            - method: 'quantitative' or 'qualitative'
-            - details: Additional info (pandas_code, result_preview, etc. for quantitative)
-        """
         # Retrieve relevant nodes
         nodes = self.query_documents(query, top_k=top_k)
         
@@ -657,9 +620,6 @@ def save_uploaded_file(uploaded_file, upload_dir="uploads"):
         f.write(uploaded_file.getbuffer())
     return path
 
-# ==========================================
-# (CELL 4) Numeric robustness helpers
-# ==========================================
 def to_number(x):
     if x is None:
         return np.nan
@@ -705,10 +665,6 @@ def to_number(x):
     except:
         return np.nan
 
-
-# ==========================================
-# (CELL 6) Safe execution + retry
-# ==========================================
 FORBIDDEN = re.compile(
     r"\b(import|open\(|exec\(|eval\(|__|os\.|sys\.|subprocess|socket|requests|http|pathlib)\b",
     re.IGNORECASE
@@ -753,10 +709,6 @@ def build_preview(df: pd.DataFrame, used_cols: list[str], n=6) -> str:
         return df.head(n).to_string(index=False)
 
 def llm_generate_code(question: str, df: pd.DataFrame, metadata: dict, last_error: str | None = None) -> str:
-    """
-    Generate pandas code to answer question using DataFrame.
-    This is a standalone function (not a method) for use in answer_with_code.
-    """
     CODE_PROMPT = """
     You are given:
     - question: {question}
@@ -792,8 +744,6 @@ def llm_generate_code(question: str, df: pd.DataFrame, metadata: dict, last_erro
         model="gemini-2.5-flash",
         contents=prompt,
     )
-
-    # Clean up code block markers
     text = (resp.text or "").strip()
     text = text.replace("```python", "").replace("```", "").strip()
     return text
@@ -855,24 +805,11 @@ def answer_with_code(question: str, df: pd.DataFrame, metadata: dict, max_retrie
         "latency_ms": latency_ms,
         "error": last_err
     }
-
-# ==========================================
-# (CELL 7) Top-k candidate loop (Pinecone olsa da aynı)
-# ==========================================
 def is_table_compatible(df: pd.DataFrame) -> bool:
     cols = [str(c).strip().lower() for c in df.columns]
     return ("group" in cols) and ("fy" in cols)
 
 def answer_over_candidates(question: str, candidates: list[dict], max_retries_per_table: int = 1, require_compatibility: bool = False) -> dict:
-    """
-    Try to answer question using table candidates.
-    
-    Args:
-        question: The question to answer
-        candidates: List of dicts with 'df', 'metadata', 'table_id'
-        max_retries_per_table: Max retries per table
-        require_compatibility: If True, only try tables that pass is_table_compatible check
-    """
     for cand in candidates:
         df = cand["df"]
         
