@@ -16,6 +16,8 @@ for key, default in {
     "current_file": None,
     "ingestion_complete": False,
     "logs": [],
+    "question_recommendations": [],
+    "pending_question": None,
 }.items():
     if key not in st.session_state:
         st.session_state[key] = default
@@ -61,6 +63,12 @@ def main():
     if "current_file" not in st.session_state:
         st.session_state.current_file = None
 
+    if "question_recommendations" not in st.session_state:
+        st.session_state.question_recommendations = []
+
+    if "pending_question" not in st.session_state:
+        st.session_state.pending_question = None
+
     # -----------------------------
     # Sidebar
     # -----------------------------
@@ -104,51 +112,57 @@ def main():
         st.info("Upload a document to begin.")
         return
 
-    # Chat history
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
-
-    # Chat input
-    if prompt := st.chat_input("Ask a question about your uploaded documents"):
-        st.session_state.messages.append(
-            {"role": "user", "content": prompt}
-        )
-
+    def run_chat_turn(question: str):
+        st.session_state.messages.append({"role": "user", "content": question})
         with st.chat_message("user"):
-            st.markdown(prompt)
-
+            st.markdown(question)
         with st.spinner("Thinking…"):
-            # Use unified query routing that handles both quantitative and qualitative queries
-            result = st.session_state.rag_pipeline.query_with_routing(prompt, top_k=10)
-            
+            result = st.session_state.rag_pipeline.query_with_routing(question, top_k=10)
             answer = result["answer"]
             method = result["method"]
             details = result.get("details", {})
-
-        # Display answer
-        st.session_state.messages.append(
-            {"role": "assistant", "content": answer}
-        )
-
+        st.session_state.messages.append({"role": "assistant", "content": answer})
         with st.chat_message("assistant"):
             st.markdown(answer)
-            
-            # Show additional details for quantitative queries
             if method == "quantitative" and details:
                 with st.expander("📊 Calculation Details", expanded=False):
                     if details.get("pandas_code"):
                         st.code(details["pandas_code"], language="python")
-                    
                     if details.get("result_preview"):
                         st.text("Result Preview:")
                         st.text(details["result_preview"])
-                    
                     if details.get("used_columns"):
                         st.caption(f"Columns used: {', '.join(details['used_columns'])}")
-                    
                     if details.get("latency_ms"):
                         st.caption(f"Response time: {details['latency_ms']}ms")
+
+    if not st.session_state.question_recommendations:
+        try:
+            st.session_state.question_recommendations = (
+                st.session_state.rag_pipeline.generate_question_recommendations(num_questions=3, sample_k=12)
+            )
+        except Exception as e:
+            logger.warning(f"Failed to generate question recommendations: {e}")
+            st.session_state.question_recommendations = []
+
+    with st.expander("Recommended questions", expanded=False):
+        st.caption("Click a question to send it to chat.")
+        for q in st.session_state.question_recommendations:
+            if st.button(q, key=f"rec_{hash(q)}"):
+                st.session_state.pending_question = q
+                st.rerun()
+
+    for msg in st.session_state.messages:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+
+    if st.session_state.pending_question:
+        pending = st.session_state.pending_question
+        st.session_state.pending_question = None
+        run_chat_turn(pending)
+
+    if prompt := st.chat_input("Ask a question about your uploaded documents"):
+        run_chat_turn(prompt)
 
 
 

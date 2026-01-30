@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 import json
 import re
+import random
 import pandas as pd
 import numpy as np
 
@@ -411,6 +412,99 @@ class RAGPipeline:
         print(files)
         logger.info(f"filess {files} ")
         return [{"file_name": k, "doc_id": v} for k, v in files.items()]
+
+
+
+    def sample_context(self, sample_k: int = 10, max_chars: int = 12000) -> str:
+        count = 0
+        try:
+            count = int(self.collection.count())
+        except Exception as e:
+            logger.warning(f"Failed to count collection rows: {e}")
+
+        if count <= 0:
+            return ""
+
+        k = min(sample_k, count)
+        offset = 0
+        if count > k:
+            offset = random.randint(0, max(0, count - k))
+
+        try:
+            data = self.collection.get(include=["documents", "metadatas"], limit=k, offset=offset)
+        except TypeError:
+            try:
+                data = self.collection.get(include=["documents", "metadatas"])
+                docs_all = data.get("documents") or []
+                metas_all = data.get("metadatas") or []
+                data = {
+                    "documents": docs_all[offset : offset + k],
+                    "metadatas": metas_all[offset : offset + k],
+                }
+            except Exception as e:
+                logger.warning(f"Failed to sample context from Chroma (fallback): {e}")
+                return ""
+        except Exception as e:
+            logger.warning(f"Failed to sample context from Chroma: {e}")
+            return ""
+
+        docs = data.get("documents") or []
+        metas = data.get("metadatas") or []
+
+        parts = []
+        for doc, meta in zip(docs, metas):
+            if not doc:
+                continue
+            file_name = ""
+            if isinstance(meta, dict):
+                file_name = str(meta.get("file_name") or "")
+            header = f"[Source: {file_name}]\n" if file_name else ""
+            parts.append(header + str(doc).strip())
+
+        context = "\n\n".join(parts).strip()
+        if not context:
+            return ""
+        return context[:max_chars]
+
+
+
+    def generate_question_recommendations(self, num_questions: int = 6, sample_k: int = 12) -> list[str]:
+        context = self.sample_context(sample_k=sample_k)
+        if not context.strip():
+            return []
+
+        prompt = (
+            "You are generating question recommendations for a user who will ask questions about a financial PDF report.\n"
+            "You are given ONLY the following extracted context from the report.\n\n"
+            "Context:\n"
+            f"{context}\n\n"
+            "Task: Propose questions that can be answered with 100% certainty using ONLY the context above.\n"
+            "Rules:\n"
+            "- Do not invent facts not present in the context.\n"
+            "- Each question must be answerable directly from the context.\n"
+            "- Prefer specific, grounded questions (figures, dates, segments, definitions, table values) over vague ones.\n"
+            "- Do not ask for opinions, future predictions, or anything requiring external data.\n"
+            f"- Return exactly {num_questions} items as a JSON array of strings.\n"
+        )
+
+        client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        resp = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+
+        text = (resp.text or "").strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        try:
+            parsed = json.loads(text)
+            if isinstance(parsed, list):
+                out = [str(x).strip() for x in parsed if str(x).strip()]
+                return out[:num_questions]
+        except Exception:
+            pass
+
+        lines = [l.strip(" -\t").strip() for l in text.splitlines() if l.strip()]
+        return lines[:num_questions]
 
 
 
